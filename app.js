@@ -33,6 +33,6 @@ setInterval(() => {
     let dateText = document.querySelector('#date');
     
     timeText.textContent = hours + ' : ' + minutes + ' : ' + seconds + ' ' + dayOrNight;
-    dateText.textContent = today; //days + ' / ' + months + ' / ' + years;
+    dateText.textContent = today;
 }, 1000);
 
